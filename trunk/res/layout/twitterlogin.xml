@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dip"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:text="@string/twitter_oauth_msg"
+            android:textSize="18dip"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/twitterAuthorize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textSize="20dip"
+            android:textStyle="bold"
+            android:text="@string/authorizestr"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/twitterPin"
+        android:layout_width="225dip"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:gravity="center"
+        android:hint="Enter the 7-digit code"
+    />
+
+    <Button
+        android:id="@+id/twitterDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textSize="20dip"
+        android:text="@string/donestr"
+        />
+
+</LinearLayout>

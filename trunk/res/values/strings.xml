@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TwitSpeak</string>
+    <string name="authorizestr">
+        Authorize
+    </string>
+    <string name="donestr">
+        Done
+    </string>
+    <string name="unkexcstr">
+        Unknown exception
+    </string>
+    <string name="syncstr">
+        Syncing
+    </string>
+    <string name="twitter_auth_errmsg1">
+        Failed to get request token from Twitter
+    </string>
+    <string name="twitter_auth_errmsg2">
+        Failed to get access token from Twitter
+    </string>
+    <string name="refresh_title">
+    Refresh
+    </string>
+    <string name="refresh_summary">
+    Download latest timeline
+    </string>
+    <string name="more_apps_title">
+    Try other apps
+    </string>
+    <string name="more_apps_summary">
+    from altcanvas
+    </string>
+    <string name="twitter_oauth_msg">
+    Authorize TwitSpeak to access your Twitter Account
+    </string>
+    <string name="crashreport_msg">
+        TwitSpeak crashed during last session. You can help improve TwitSpeak by sending the report by email.
+    </string>
+    <string name="emailstr">
+        Email
+    </string>
+    <string name="mailthisto_msg">
+        Mail this to
+    </string>
+    <string name="cancelstr">
+        Cancel 
+    </string>
+    <string name="poststr">
+        Post
+    </string>
+    <string name="twit_suggestion">
+        Liked TwitSpeak #android #androidapp
+    </string>
+    <string name="comment_title">
+        Comment
+    </string>
+    <string name="comment_summary">
+        Twit about TwitSpeak
+    </string>
+    <string name="tts_install_msg">
+        You need to install TTS (Text-to-Speech) data to proceed.
+    </string>
+    <string name="tts_install_title">
+        TTS install
+    </string>
+    <string name="proceed_str">
+        Proceed
+    </string>
+    <string name="cancel_str">
+        Cancel
+    </string>
+</resources>

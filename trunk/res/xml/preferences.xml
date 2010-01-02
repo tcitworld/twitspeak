@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:key="refresh"
+        android:title="@string/refresh_title"
+        android:summary="@string/refresh_summary"
+        />
+
+    <PreferenceScreen
+        android:key="comment"
+        android:title="@string/comment_title"
+        android:summary="@string/comment_summary"
+        />
+
+    <PreferenceScreen
+        android:key="moreapps"
+        android:title="@string/more_apps_title"
+        android:summary="@string/more_apps_summary">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="market://search?q=pname:com.altcanvas.readerscope"
+            />
+    </PreferenceScreen>
+
+</PreferenceScreen>
