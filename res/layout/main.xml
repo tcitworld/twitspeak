@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    android:paddingBottom="30dip"
+    >
+    <TextView
+        android:id="@+id/twitbox"
+        android:background="@drawable/txtbg"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true"
+        android:textColor="#FF000000"
+        android:textSize="18dip"
+        android:padding="10dip"
+        android:gravity="center"
+        />
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:src="@drawable/settings"
+        android:layout_alignBottom="@id/twitbox"
+        android:layout_alignRight="@id/twitbox"
+        android:paddingRight="5dip"
+        android:paddingBottom="5dip"
+        />
+</RelativeLayout>
+

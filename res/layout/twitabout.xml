@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingBottom="10dip"
+    android:paddingTop="10dip"
+    android:spacing="5dip"
+    >
+    <EditText
+        android:id="@+id/twittext"
+        android:text="@string/twit_suggestion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="3"
+        />
+    <Button
+        android:id="@+id/postbutton"
+        android:text="@string/poststr"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
